@@ -1,0 +1,567 @@
+/*FUENTES DE GOOGLE UTILIZADAS -------------------
+font-family: 'Kaushan Script', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Sue Ellen Francisco', cursive;
+-------------------------------------------------- */
+/* Styles para que quede pegado abajo el footer
+-------------------------------------------------- */
+html {
+  	position: relative;
+  	min-height: 100%;
+}
+body {
+  	/* Margen inferior por la altura del pie de página */
+  	margin-bottom: 100px;
+}
+.footer {
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	/* Establecer la altura fija del pie de página aquí*/
+  	height: 100px;  
+}
+.main {
+	margin-bottom: 100px;
+}
+/* Styles propios del diseño chibcha
+-------------------------------------------------- */
+h5{
+	padding: 0px;
+	margin: 0px;
+}
+header img{
+    width: 140px;
+    padding-top: 10px;
+}
+header h1{
+	font-size: 4em;
+	font-family: 'Righteous', cursive;
+	padding: 0px;
+	margin: 0px;
+}
+.amarillo {
+	color: #f9af1b;
+}
+.azul {
+	color: #3a7cec;
+}
+.rojo {
+	color: #e33e2b;
+}
+.navbar {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    border: 0px;    
+}
+.container-fluid{
+    background-color: #ffffff;
+}
+#start:hover{
+	background-color: #f9af1b;
+    color: #ffffff;
+}
+#start:active{
+	background-color: #ffffff;
+    color: #f9af1b;
+}
+#programs:hover{
+	background-color: #3a7cec;
+    color: #ffffff;
+}
+#programs:active{
+	background-color: #ffffff;
+    color: #3a7cec; 
+}
+#jobs:hover{
+    background-color: #e33e2b;
+    color: #ffffff;
+}
+#jobs:active{
+    background-color: #ffffff;
+    color: #e33e2b;
+}
+#contact:hover{
+    background-color: #8bc447;
+    color: #ffffff;
+}
+#contact:active{
+    background-color: #ffffff;
+    color: #8bc447;
+}
+.contenido #studioabc {
+	background-color: #f08f84;
+	margin: 0px;
+	padding: 0px;	
+}
+.contenido #studiopsicosocial {
+	background-color: #96baf6;
+	margin: 0px;
+	padding: 0px;
+}
+.container-fluid .main h1 {
+    font-size: 2.5em;
+	font-family: 'Righteous', cursive;
+	color: #404040;
+	margin-bottom: 30px; /* Evita que los círculos de colores entren en el título*/
+}
+/*Para hacer que el contenido de la sección de bateriapsicosocial se muestre completo*/
+#programas .contenido{
+	margin-top: 30px;
+}
+#inicio .main p {
+	font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.6em;
+	padding-top: 40px;
+	margin: 0px;
+}
+#contacto .main p {
+	font-family: 'Kaushan Script', cursive;
+    font-size: 1.3em;
+	letter-spacing: 0.1em;
+	padding: 0px;
+	margin: 0px;
+}
+#programas .main p {
+	font-family:;
+	font-size: 1.2em;
+}
+.main h2 {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 3em;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+#programas .main h3 {
+	font-family: 'Righteous', cursive;
+	font-size: 2em;
+	padding-top: 30px;
+	margin-top: 0px;
+}
+.main p span{
+    font-weight:bold;
+}
+.container-fluid .main #uno{	
+    background-image: url(../imagenes/circulo-amarillo.svg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	color: #f9af1b;
+	padding-right: 0px;
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.container-fluid .main #dos{	
+    background-image: url(../imagenes/circulo-azul.svg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	color: #3a7cec;
+	padding-right: 10px;
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.container-fluid .main #tres{	
+    background-image: url(../imagenes/circulo-rojo.svg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	color: #e33e2b;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.container-fluid .main #cuatro{	
+    background-image: url(../imagenes/circulo-verde.svg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	color: #8bc447;
+	padding-right: 0px;
+	padding-top: 50px;
+	padding-bottom: 90px;
+	margin-bottom: 46px;
+}
+.container-fluid .main #mesatrabajo p {
+	font-size: 1.6em;
+}
+#mesatrabajo img{
+	margin: 0px;
+	padding: 0px;
+	min-width: 100%;
+	height: auto;
+}
+#programas img {
+	max-width: 60%;
+	height: auto;
+	margin-top: 10px;	
+}
+#studioabc img{
+	margin-top: 55px;	
+}
+.socialmedia {
+	height: 32px;
+}
+.socialmedia img {
+	width: 40px;
+}
+.piedepagina {
+	height: 90px;
+	background-color: #92e39b;
+	margin-top: 7px;
+}
+.footer .direccion{
+	padding-top: 6px;
+}
+.footer h6{
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 1.2em;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 3px;
+}
+#contacto .contenido {
+	height: 940px;
+	padding: 0px;
+}
+#trabajos .contenido {
+	height: 780px;
+}
+
+#trabajos .paginasweb {
+	margin-top: 20px;
+}
+#trabajos .paginasweb h2{
+	margin-bottom: 15px;
+	padding-bottom: 0px;
+}
+#trabajos .paginasweb p{
+	margin: 0px;
+	padding: 0px;	
+}
+/*--------------------------------------------------/
+/* CSS DEL FORMULARIO DE CONTACTO
+-------------------------------------------------- */
+/*--- estilos para los ul y li del formulario ---*/
+.contact_form ul {
+	list-style-type:none;
+    margin:.0px;
+    padding-left: 0px;
+	margin-right: -15px;
+}
+.contact_form li{
+    padding: 1px; 
+}
+.contact_form label {
+    color: #555555;
+    float: left;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 0px;
+    width: 0px;
+}
+.contact_form input {
+    height: 40px; 
+    width: 280px; 
+    padding: 5px 8px;
+}
+.contact_form textarea {
+    padding: 8px; 
+    width: 280px;
+}
+.contact_form button {
+    margin-left: 0px;
+}
+/*----- estilos visuales de los elementos --------*/
+.contenido label{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.contact_form input, .contact_form textarea { 
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    color: #999;
+	font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.5em;
+    padding-right:30px;
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+    padding-right: 80px;
+}
+/* === Estilos de Validacion === */     
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+}
+/* === Estilos del boton de Envio === */
+button.submit {
+   padding: 9px 17px;
+   font-family: ;
+   font-weight: bold;
+   line-height: 1;
+   color: #3a7cec;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   background-color: #fff;
+   border: 1px solid #f1f1f1;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+    opacity:.55;
+    cursor: pointer; 
+    color: #8bc447;
+}
+button.submit:active {
+	color: #e33e2b;
+    border: 1px solid #f7ae1d;
+    box-shadow: 0 0 10px 5px #fcd27e inset; 
+}
+/*------------------------------------------------ */
+/* MEDIA DE MÁS DE 360px
+-------------------------------------------------- */
+/* Style para que funcione correctamente el Responsive del footer
+-------------------------------------------------- */
+@media (min-width: 360px) {
+    body {
+    /* Margen inferior por la altura del pie de página */
+    	margin-bottom: 120px;
+    }
+    .footer {
+    /* Establecer la altura fija del pie de página aquí*/
+        height: 120px;
+    }
+	.container-fluid .main h1 {
+		font-size: 3.5em;		
+	}
+	#programas .main h3 {
+		font-size: 3em;	
+	}
+	#contacto .contenido {
+		height: 850px;
+		padding: 0px;
+	}
+	#trabajos .contenido {
+	height: 630px;
+	}
+}
+/*------------------------------------------------ */
+/* MEDIA DE MÁS DE 480px
+-------------------------------------------------- */
+@media (min-width: 480px) {
+	/* Style para que funcione correctamente el Responsive del footer
+	-------------------------------------------------- */
+	body {
+    /* Margen inferior por la altura del pie de página */
+    	margin-bottom: 120px;
+    }
+    .footer {
+    /* Establecer la altura fija del pie de página aquí*/
+        height: 120px;    
+    }
+	#programas img {
+		max-width: 80%;
+		padding-top: 0px;
+	}
+	#studioabc img{
+		margin-top: 55px;	
+	}
+	#programas .main h3 {
+		font-size: 4em;
+	}
+	#contacto .datoscontacto{
+		margin-top: 20px;		
+	}
+	.contenido label{
+		width: 20%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.contenido input {
+		width: 70%;
+		padding: 0px;
+		margin-right: 10%;		
+		
+	}
+	.contenido textarea {
+		width: 70%;
+		padding: 0px;
+		margin-right: 10%;
+	}
+	#trabajos .contenido {
+	height: 600px;
+	}
+}
+/*------------------------------------------------ */
+/* MEDIA DE MÁS DE 768px
+-------------------------------------------------- */
+@media (min-width: 768px) {
+	/* Styles para que la barra de navegación quede centrada
+	-------------------------------------------------- */
+	.navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    /* Style para que funcione correctamente el Responsive del footer
+    -------------------------------------------------- */
+    body {
+    /* Margen inferior por la altura del pie de página */
+    	margin-bottom: 100px;
+    }
+    .footer {
+    /* Establecer la altura fija del pie de página aquí*/
+    	height: 100px;		
+	}
+	#trabajos .contenido {
+	height: 520px;
+	}
+	#contacto .contenido {
+		height: 400px;
+		padding: 0px;
+	}
+	.contenido input {
+		width: 80%;
+		margin-right: 0%;	
+	}
+	.contenido textarea {
+		width: 80%;		
+		margin-right: 0%;
+	}
+	.contenido #studioabc {
+		background-color: transparent;
+	}
+	.contenido #studiopsicosocial {
+		background-color: transparent;
+	}
+	#studioabc img {
+		margin-top: 0px;	
+	}
+	#programas .main h3 {
+		font-size: 2.1em;
+		padding-top: 0px;
+	}
+	#programas img {
+		max-width: 70%;		
+	}	
+	.socialmedia {
+		height: 43px;
+	}
+	.piedepagina {
+		height: 60px;
+	}
+	.socialmedia img {
+		width: 50px;
+	}
+}
+/*------------------------------------------------ */
+/* MEDIA DE MÁS DE 1024px
+-------------------------------------------------- */
+@media (min-width: 1024px) {
+	/* Reducción del margen inferior del título para que se vea bien en Tabletas y portátiles
+    -------------------------------------------------- */
+	/* Eliminamos el margin y padding de tamaños anteriores para visualizar la página en toda la pantalla*/
+	.main{ 
+		margin: 0px;
+		padding: 0px;
+	}
+	#inicio .main p {
+		font-size: 1.3em; /* Reducción del tamaño de la letra para que encaje el texto en los circulos de colores*/
+	}
+	/* Esta clase contiene los mensajes, le damos un tamaño de 520px para evitar que en algunas Tabletas los iconos sociales queden sobre los círculos de colores*/
+	#inicio .contenido {
+		height: 530px;
+		padding-bottom: 0px;
+	}
+	/* Esta clase contiene los mensajes, le damos un tamaño de 530px para evitar que en algunas Tabletas los iconos sociales queden sobre el contenido de la página*/
+	#programas .contenido{
+		height: 530px;
+		padding-bottom: 0px;
+	}
+	#trabajos .contenido {
+		height: 500px;
+	}
+	#contacto .contenido {
+		height: 510px;
+		padding-bottom: 0px;
+	}
+	/* Disminuimos el tamaño del h3 para que no quede muy pegado al título de StudioABC*/
+	#programas .main h3 {
+		font-size: 1.8em;
+		padding-top: 0px;
+	}
+	/* Permitimos que la imagen ocupe el 100% de su ancho ya que la resolución es mayor*/
+	#programas img {
+		max-width: 70%;
+	}
+	#mesatrabajo img {
+		max-width: 100%;
+		max-height: 300px;		
+	}
+	/* Hacemos más pequeño el recuadro verde del footer y ajustamos la dirección*/
+	.piedepagina {
+		margin-top: 7px;
+		height: 50px;		
+	}
+	/* Eliminamos el padding top de la dirección contenida en el footer para que la página se ajuste al 100% de muchas pantallas */
+	.footer .direccion{
+		padding-top: 0px;
+	}	
+}
+/*------------------------------------------------ */
+/* MEDIA DE MÁS DE 1200px
+-------------------------------------------------- */
+@media (min-width: 1200px) {
+	/* Reducción del margen inferior del título para que se vea bien en Tablet y portátiles
+    -------------------------------------------------- */
+	.container-fluid .main h1 {	
+		margin-bottom: 7px;
+		margin-top: 0px;
+	}
+	#programas .main h3 {
+		font-size: 2.1em;
+	}
+	/* Reducción del tamaño de la letra para que encaje el texto en los circulos de colores
+    -------------------------------------------------- */
+	.container-fluid .main p {
+		font-size: 1.6em;	
+	}
+	#studiopsicosocial img {
+		max-width: 100%;
+		max-height: 240px;		
+	}
+	#trabajos .contenido {
+	    height: 485px;
+	}
+}
+/*------------------------------------------------ */
+/* MEDIA DE MÁS DE 1600px
+-------------------------------------------------- */
+@media (min-width: 1600px) {
+	#programas .main h3 {
+		font-size: 3em;
+	}
+	/* Reducción del tamaño de la letra para que encaje el texto en los circulos de colores
+    -------------------------------------------------- */
+	#mesatrabajo img {
+		max-width: 100%;
+		max-height: 280px;
+	}
+}
