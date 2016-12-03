@@ -1,186 +1,178 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <title>Chibcha | Innovación y Desarrollo</title>
-    <!-- METAS -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="description" content="Desarrollo de software, paginas web. Creadores de StudioABC (Levantamiento e Implementacion de Costos ABC) y PsicoStudio (Evaluar el Riesgo Psicosocial en empresas)">
-    <meta name="keywords" content="desarrollo,villeta,software,programa,costos-abc,bateria,psicosocial,riesgo,asesoria,abc-costing,colombia">
-    <meta name="author" content="chibcha.com.co">
-    <!-- LINKS -->
-    <link rel="stylesheet" href="css/estilos.css"/>
-    <link rel="shortcut icon" href="imagenes/favicon.ico"/>
-		<!-- FUENTES DE GOOGLE-->
-		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kaushan+Script|Righteous|Sue+Ellen+Francisco" rel="stylesheet">
-		<!-- BOOTSTRAP 3.3.7-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<!-- ANIMATE.CSS 3.5.2 -->    
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<title>Chibcha | Innovación y Desarrollo</title>
+	<!-- METAS -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description" content="Desarrollo de software, paginas web. Creadores de StudioABC (Levantamiento e Implementacion de Costos ABC) y PsicoStudio (Evaluar el Riesgo Psicosocial en empresas)">
+	<meta name="keywords" content="desarrollo,villeta,software,programa,costos-abc,bateria,psicosocial,riesgo,asesoria,abc-costing,colombia">
+	<meta name="author" content="chibcha.com.co">
+	<!-- LINKS -->
+	<link rel="stylesheet" href="css/estilos.css" />
+	<link rel="shortcut icon" href="imagenes/favicon.ico" />
+	<!-- FUENTES DE GOOGLE-->
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Righteous|Sue+Ellen+Francisco" rel="stylesheet">
+	<!-- BOOTSTRAP 3.3.7-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- ANIMATE.CSS 3.5.2 -->
+	<link rel="stylesheet" href="css/animate.css">
 </head>
+
 <body>
-   <center>
-    <div class="container-fluid">
-     <br>
-     <header>
-     <img src="imagenes/chibcha.svg" alt="Logo Chibcha">
-     <h1><span class="amarillo">Chi</span><span class="azul">bc</span><span class="rojo">ha</span></h1>
-      <nav class="navbar navbar-default">
-          <div class="container-fluid">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
-                    <span class="sr-only">Menu</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  
-              </div>
-              
-              <div class="collapse navbar-collapse" id="navbar-1">
-                  <ul class="nav navbar-nav">
-                      <li><a id="start" onclick="SoloInicio()" href="#inicio">Inicio</a></li>
-                      <li><a id="programs" onclick="SoloProgramas()" href="#programas">Programas</a></li>
-                      <li><a id="jobs" onclick="SoloTrabajos()" href="#trabajos">Trabajos</a></li>
-                      <li><a id="contact" onclick="SoloContacto()" href="#contacto">Contáctanos</a></li>
-                  </ul>
-              </div>
-              
-          </div>
-      </nav>    
-       
-   </header>
-   </div>
-    
-      <div class="container-fluid" id="inicio">
-          <section class="main row">
-             <div class="col-md-12">
-                <h1>Creamos aplicaciones</h1>
-             </div>
-             <div class="container contenido">
-				 <div class="col-md-3" id="uno">
-					<p>Herramientas <br>que <span>simplifican <br> el trabajo</span></p>
-				 </div>
-				 <div class="col-md-3" id="dos">
-					<p><span>Ideas <br>innovadoras <br></span> que <span>aumentan <br>la <br> productividad</span></p>
-				 </div>
-				 <div class="col-md-3" id="tres">    
-					<p>Diseñadas<br> a la <span>medida <br> de sus <br>necesidades</span></p></div>
-				 <div class="col-md-3" id="cuatro">    
-					<p>Su empresa <br>en la web = a<br><span>+ posibilidades <br> de negocio</span></p>
-				 </div>
-             </div> <!-- Fin de la clase contenido "Contenedor de todos los mensajes" -->
-          </section>
-      </div>
-      
-      <div class="container-fluid" id="programas">
-          <section class="main row">
-             <div class="col-md-12">
-                <h1>Hemos desarrollado</h1>
-             </div>
-             <div class="contenido">
-				 <div class="col-md-6" id="mesatrabajo">
-				 	<img src="imagenes/mesatrabajo.svg" alt="Mesa de trabajo">
-					<h2><span>Herramientas para aumentar la productividad</span></h2>
-				 </div>
-				 <div class="col-sm-6 col-md-3" id="studioabc">
-				 	<img src="imagenes/studioabc.svg" alt="Logo StudioABC" id="imagenabc">
-					 <p>Software para el levantamiento e implementación de <span>Costos Basados en Actividades<br> </span>ABC (Activity Based Costing) </p>
-					<a href="http://www.studioabc.xyz" target="_blank" title="Conoce StudioABC…"><h5>www.studioabc.xyz</h5></a><br>
-				 </div>
-				 <div class="col-sm-6 col-md-3" id="studiopsicosocial">
-				 	<h3>PsicoStudio</h3>
-					<img src="imagenes/riesgopsicosocial.svg" alt="Imagen StudioPsicosocial" id="imagenriesgo">
-					<p>Herramienta para la evaluación de factores de <span>riesgo psicosocial<br></span></p>
-					<a href="http://www.bateriapsicosocial.co" target="_blank" title="Conoce PsicoStudio…"><h5>www.bateriapsicosocial.co</h5></a><br><br>
-            	 </div>
-             </div> <!-- Fin de la clase contenido "Contenedor de todos los mensajes" -->
-          </section>
-      </div>
-      <div class="container-fluid" id="trabajos">
-          <section class="main row contenido">
-             <div class="col-md-12">
-                <h1>Páginas web</h1>
-             </div>
-             <div class="col-md-4 paginasweb">
-             	<h2>Conjunto Residencial Portal de las Acacias</h2>
-             	<p>Alquiler y renta de casas amobladas vacacionales</p>
-             	<a href="http://www.portaldelasacacias.com" target="_blank" title="Visita portaldelasacacias.com"><h5>www.portaldelasacacias.com</h5></a>        
-             </div>
-             <div class="col-md-4 paginasweb">
-             	<h2>Catthleya Gourmet</h2>
-             	<p>Banquetearía y atención de eventos familiares y empresariales</p>
-             	<a href="http://www.catthleya.com" target="_blank" title="Visita catthleya.com..."><h5>www.catthleya.com</h5></a>             	
-             </div>             
-             <div class="col-md-4 paginasweb">
-             	<h2>PyG Abogados Consultores</h2>	
-             	<p>Asesoría integral en gestión humana, derecho laboral individual y colectivo.  Recursos humanos, consultoría, diagnóstico, medición de riesgos psicosociales y temas laborales.</p>
-             	<a href="http://www.pgabogadosconsultores.com.co" target="_blank" title="Visita pgabogadosconsultores.com.co..."><h5>www.pgabogadosconsultores.com.co</h5></a>           	
-             </div> 
-          </section>
-      </div> 
-      <div class="container-fluid" id="contacto">
-	   <div class="main row contenido">
-		<form class="col-sm-6 contact_form" action="#" method="post">
-			<ul>
-					<li>
-					<h2>Escríbenos</h2>
-					</li>					   
-					<li>					
-						 <label for="name">Nombre:</label>
-						 <input type="text"  placeholder="   Nombre completo" required />
-					</li>
-					<li>
-						 <label for="email">Email:</label>
-						 <input type="email" name="email" placeholder="   E-mail@example.com" required />
-					</li>
-					<li>
-						 <label for="Mensaje">Mensaje:</label>
-						 <textarea name="Mensaje" cols="25" rows="3" placeholder="   Ingrese aquí su mensaje" required ></textarea>
-					</li>
-				    <li>
-						 <button class="submit" type="submit">Enviar</button>
-					</li>					
-			</ul>
-		</form>
-		<div class="datoscontacto col-sm-6">
-			<h2>Datos de Contacto</h2>
-			<p><span>Teléfono:</span> (+57)311 555 9795</p>					
-			<p><span>E-mail:</span> contacto@chibcha.com.co</p>
-			<p><span>Dirección:</span> Calle1Sur No.10A-103 Villeta, Cundinamarca</p>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.6538250147842!2d-74.47233217078909!3d5.003385999773009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMDAnMTIuMiJOIDc0wrAyOCcxOC40Ilc!5e0!3m2!1ses-419!2sco!4v1478583245627" width="100%" height="180" frameborder="0" style="border:0" allowfullscreen></iframe><br>
+		<div class="container-fluid">
+			<header>
+			<div id="cabezapagina">
+				<img src="imagenes/chibcha.svg" alt="Logo Chibcha">
+				<h1><span class="amarillo">Chi</span><span class="azul">bc</span><span class="rojo">ha</span></h1>
+			</div>
+			<div id="menugeneral">
+			<input type="checkbox" id="btn-menu">
+			<label for="btn-menu"><img src="imagenes/menu.svg" alt="" id="imgmenu"></label>
+			<nav class="menu">
+				<ul>
+					<li><a id="start"  onclick="SoloInicio()">Inicio</a></li>
+					<li><a id="programs" onclick="SoloProgramas()">Programas</a></li>
+					<li><a id="jobs" onclick="SoloTrabajos()">Trabajos</a></li>
+					<li><a id="contact" onclick="SoloContacto()">Contacto</a></li>
+				</ul>
+			</nav>
+			</div>
+
+
+			</header>
 		</div>
-	   </div>       
-      </div>                  
-      <footer class="footer">
-          <div class="container-fluid">
-              <div class="row">
-              <div class="socialmedia">
-				   <div class="col-sm-12">
-					<a id="facebook" href="http://facebook.com/chibcha" target="_blank" title="Síguenos en Facebook..."><img src="imagenes/facebook.svg" alt="Facebook Chibcha"></a>
-					<a id="linkedin" href="https://www.linkedin.com/company/chibcha" target="_blank" title="Relacionate con nostros en LinkedIn"><img src="imagenes/linkedin.svg" alt="Linkedin Chibcha"></a>
-					<a id="twitter" href="https://twitter.com/chibchasoft" target="_blank" title="Síguenos en Twitter"><img src="imagenes/twitter.svg" alt="Twitter Chibcha"></a>
-					<a id="youtube" href="https://www.youtube.com/channel/UC4FHQM_VZeXCSC00OPhnAEQ" target="_blank" title="Mira nuestros videos y tutoriales en Youtube"><img src="imagenes/youtube.svg" alt="Youtube Chibcha"></a>
-					<a id="github" href="http://github.com/chibchasoft" target="_blank" title="Mira el código de está página y algunas aplicaciones en GitHub"><img src="imagenes/github.svg" alt="GitHub Chibcha"></a>
-				  </div> <!-- Fin del contenedor que lo ajusta a 12 columnas -->
-              </div> <!-- Fin de socialmedia -->
-                 <div class="piedepagina">
-                  <div class="direccion col-sm-6">
-                      <h6>Calle 1 Sur No.10A-103, Villeta, Cundinamarca</h6>
-                      <h6>Colombia</h6>
-                  </div><!-- Fin primera columna -->
-                  <div class="derechos col-sm-6">
-                      <h6>Copyright &copy; 2016. Desarrollado por nosotros mismos&#8482.</h6>
-                  </div><!-- Fin segunda columna -->
-				 </div> <!-- Fin del piedepagina -->
-              </div><!-- Fin de row -->
-          </div><!-- Fin de container-fluid -->
-      </footer>      
-    </center>  
-   <!-- JAVASCRIPT -->
-   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-   <script src="js/bootstrap.min.js"></script>
-   <script src="js/chibcha.js"></script>
+
+		<div class="container-fluid" id="inicio">
+			<section class="main row">
+				<div class="col-md-12">
+					<h1>Creamos aplicaciones</h1>
+				</div>
+				<div class="container contenido">
+					<div class="col-md-3" id="uno">
+						<p>Herramientas
+							<br>que <span>simplifican <br> el trabajo</span></p>
+					</div>
+					<div class="col-md-3" id="dos">
+						<p><span>Ideas <br>innovadoras <br></span> que <span>aumentan <br>la <br> productividad</span></p>
+					</div>
+					<div class="col-md-3" id="tres">
+						<p>Diseñadas
+							<br> a la <span>medida <br> de sus <br>necesidades</span></p>
+					</div>
+					<div class="col-md-3" id="cuatro">
+						<p>Su empresa
+							<br>en la web = a
+							<br><span>+posibilidades <br> de negocio</span></p>
+					</div>
+				</div><!-- Fin de la clase contenido "Contenedor de todos los mensajes" -->
+			</section>
+		</div>
+
+		<div class="container-fluid" id="programas">
+			<section class="main row">
+				<div class="col-md-12">
+					<h1>Hemos desarrollado</h1>
+				</div>
+				<div class="contenido">
+					<div class="col-md-6" id="mesatrabajo">
+						<img src="imagenes/mesatrabajo.svg" alt="Mesa de trabajo">
+						<h2><span>Herramientas para aumentar la productividad</span></h2>
+					</div>
+					<div class="col-sm-6 col-md-3" id="studioabc">
+						<img src="imagenes/studioabc.svg" alt="Logo StudioABC" id="imagenabc">
+						<p>Software para el levantamiento e implementación de <span>Costos Basados en Actividades<br> </span>ABC (Activity Based Costing) </p>
+						<a href="http://www.studioabc.xyz" target="_blank" title="Conoce StudioABC…"><h5>www.studioabc.xyz</h5></a>
+						<br>
+					</div>
+					<div class="col-sm-6 col-md-3" id="studiopsicosocial">
+						<h3>PsicoStudio</h3>
+						<img src="imagenes/riesgopsicosocial.svg" alt="Imagen StudioPsicosocial" id="imagenriesgo">
+						<p>Herramienta para la evaluación de factores de <span>riesgo psicosocial<br></span></p>
+						<a href="http://www.bateriapsicosocial.co" target="_blank" title="Conoce PsicoStudio…"><h5>www.bateriapsicosocial.co</h5></a>
+						<br>
+						<br>
+					</div>
+				</div>
+				<!-- Fin de la clase contenido "Contenedor de todos los mensajes" -->
+			</section>
+		</div>
+		<div class="container-fluid" id="trabajos">
+			<section class="main row contenido">
+				<div class="col-md-12">
+					<h1>Páginas web</h1>
+				</div>
+				<div class="col-md-4 paginasweb">
+					<h2>Conjunto Residencial Portal de las Acacias</h2>
+					<p>Alquiler y renta de casas amobladas vacacionales</p>
+					<a href="http://www.portaldelasacacias.com" target="_blank" title="Visita portaldelasacacias.com"><h5>www.portaldelasacacias.com</h5></a>
+				</div>
+				<div class="col-md-4 paginasweb">
+					<h2>Catthleya Gourmet</h2>
+					<p>Banquetearía y atención de eventos familiares y empresariales</p>
+					<a href="http://www.catthleya.com" target="_blank" title="Visita catthleya.com..."><h5>www.catthleya.com</h5></a>
+				</div>
+				<div class="col-md-4 paginasweb">
+					<h2>PyG Abogados Consultores</h2>
+					<p>Asesoría integral en gestión humana, derecho laboral individual y colectivo. Recursos humanos, consultoría, diagnóstico, medición de riesgos psicosociales y temas laborales.</p>
+					<a href="http://www.pgabogadosconsultores.com.co" target="_blank" title="Visita pgabogadosconsultores.com.co..."><h5>www.pgabogadosconsultores.com.co</h5></a>
+				</div>
+			</section>
+		</div>
+		<div class="container-fluid" id="contacto">
+			<div class="main row contenido">
+				<form class="col-sm-6 contact_form" action="phpmailer/enviar-phpmailer.php" method="post" enctype="application/x-www-form-urlencoded">
+					<h2>Escríbenos</h2>
+					<label for="nombre">Nombre:</label>
+					<input type="text" name="nombre" placeholder="   Nombre completo" required />
+					<label for="correo">Email:</label>
+					<input type="email" name="email" placeholder="   E-mail@example.com" required />
+					<label for="telefono">Teléfono:</label>
+					<input type="tel" name="telefono" placeholder="   57-555 55555" required />
+					<label for="Mensaje">Mensaje:</label>
+					<textarea name="mensaje" cols="25" rows="3" placeholder="   Ingrese aquí su mensaje" required></textarea>
+					<input type="submit" id="boton-enviar" name="enviar_btn" value="Enviar">
+				</form>
+
+				<div class="datoscontacto col-sm-6">
+					<h2>Datos de Contacto</h2>
+					<p><span>Teléfono:</span> (+57)311 555 9795</p>
+					<p><span>E-mail:</span> contacto@chibcha.com.co</p>
+					<p><span>Dirección:</span> Calle1Sur No.10A-103 Villeta, Cundinamarca</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.6538250147842!2d-74.47233217078909!3d5.003385999773009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMDAnMTIuMiJOIDc0wrAyOCcxOC40Ilc!5e0!3m2!1ses-419!2sco!4v1478583245627" width="100%" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<br>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="socialmedia">
+						<div class="col-sm-12">
+							<a id="facebook" href="http://facebook.com/chibcha" target="_blank" title="Síguenos en Facebook..."><img src="imagenes/facebook.svg" alt="Facebook Chibcha"></a>
+							<a id="linkedin" href="https://www.linkedin.com/company/chibcha" target="_blank" title="Relacionate con nostros en LinkedIn"><img src="imagenes/linkedin.svg" alt="Linkedin Chibcha"></a>
+							<a id="twitter" href="https://twitter.com/chibchasoft" target="_blank" title="Síguenos en Twitter"><img src="imagenes/twitter.svg" alt="Twitter Chibcha"></a>
+							<a id="youtube" href="https://www.youtube.com/channel/UC4FHQM_VZeXCSC00OPhnAEQ" target="_blank" title="Mira nuestros videos y tutoriales en Youtube"><img src="imagenes/youtube.svg" alt="Youtube Chibcha"></a>
+							<a id="github" href="http://github.com/chibchasoft" target="_blank" title="Mira el código de está página y algunas aplicaciones en GitHub"><img src="imagenes/github.svg" alt="GitHub Chibcha"></a>
+						</div><!-- Fin del contenedor que lo ajusta a 12 columnas -->
+					</div><!-- Fin de socialmedia -->
+					<div class="piedepagina">
+						<div class="direccion col-sm-6">
+							<h6>Calle 1 Sur No.10A-103, Villeta, Cundinamarca</h6>
+							<h6>Colombia</h6>
+						</div><!-- Fin sección de dirección -->
+						<div class="derechos col-sm-6">
+							<h6>Copyright &copy; 2016. Desarrollado por nosotros mismos&#8482.</h6>
+						</div><!-- Fin de derechos copyrigth -->
+					</div><!-- Fin del piedepagina -->
+				</div><!-- Fin de row -->
+			</div><!-- Fin de container-fluid -->
+		</footer>
+	<!-- JQUERY -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/chibcha.js"></script>
 </body>
+
 </html>
